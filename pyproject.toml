@@ -1,22 +1,3 @@
-[project]
-name = "covid_approval_checker"
-version = "0.1.0"
-description = "Proyecto de creacón de un paquete Python para la tarea PEC 4."
-authors = [
-    "Xavier Merchán<xaviermerchan1989@gmail.com>"
-]
-
-license = "MIT"
-readme = "README.md"
-python = "^3.0"
-
-keywords = ["data analysis", "processing data", "pyproject.toml"]
-
-# Requirements
-[dependencies]
-Pandas = "^1.0"
-Matplotlib = "^3.0"
-
 [build-system]
 requires = [
     "setuptools>=42",

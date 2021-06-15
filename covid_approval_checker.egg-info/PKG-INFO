@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: covid-approval-checker
+Version: 0.0.1
+Summary: Proyecto de creacón de un paquete Python para la tarea PEC 4
+Home-page: https://github.com/xavier03ml/pec4
+Author: Xavier Merchán
+Author-email: xaviermerchan1989@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+

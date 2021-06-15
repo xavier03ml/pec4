@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+covid_approval_checker/__init__.py
+covid_approval_checker/functions.py
+covid_approval_checker.egg-info/PKG-INFO
+covid_approval_checker.egg-info/SOURCES.txt
+covid_approval_checker.egg-info/dependency_links.txt
+covid_approval_checker.egg-info/requires.txt
+covid_approval_checker.egg-info/top_level.txt

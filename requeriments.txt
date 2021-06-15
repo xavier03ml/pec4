@@ -1,1 +1,2 @@
-Pandas 1.0 o superior
+pandas>=1.2.4
+matplotlib>=3.0
