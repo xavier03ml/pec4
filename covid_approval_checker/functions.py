@@ -64,6 +64,7 @@ class ApprovalChecker():
                     self.df_approval_polls['sponsor'] ==
                     termino]['sponsor'].count()
                 print(f'The pattern {termino} appears {cnt} times\n')
+                return cnt
             else:
                 print('Datasets no están listos, verifique su carga')
         except Exception as e:
@@ -88,6 +89,7 @@ class ApprovalChecker():
                     self.df_approval_polls['url'].str.match(url)][
                     'url'].count()
                 print(f'The pattern {url} appears {cnt} times\n')
+                return cnt
             else:
                 print('Datasets no están listos, verifique su carga')
         except Exception as e:
@@ -136,7 +138,7 @@ class ApprovalChecker():
                 ax.set_title('Number Approve vs Dissaprove by Party')
                 ax.legend()
 
-                plt.savefig('ejercicio4.png')
+                plt.savefig('ejercicio3.png')
                 print('Gráfico guardado correctamente')
 
             except Exception as e:
@@ -175,18 +177,3 @@ class ApprovalChecker():
                                       ax['tracking'] == False]
         else:
             print('Datasets no están listos, verifique su carga')
-
-    
-        #print(f'Estado del checker: {self.ready}')
-        return self.ready
-
-     
-""" 
-ac = ApprovalChecker('covid_approval_polls.csv',
-                     'covid_concern_polls.csv',
-                     'pollster_ratings.xlsx')
-
-ac.preparar_datasets()
-
-ac.contar_termino_palabra('Huffington Post')
-"""
